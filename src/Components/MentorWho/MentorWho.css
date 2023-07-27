@@ -1,0 +1,98 @@
+
+.mentorwho{
+    max-width: 1280px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 100px 0 0;
+    margin: 5rem auto 100px;
+}
+
+.mentorwho .mw-left{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 0 2rem 0;
+    gap: 0.5rem;
+}
+
+@media (max-width:960px) {
+    .mentorwho .mw-left{
+    width: 60%;
+}
+}
+
+.mentorwho .mw-left .mw-heading{
+    font-size:var(--heading);
+    width: 100%;
+    /* padding: 0  0 0 2.5rem; */
+    text-align: center;
+    color: var(--bg-black);
+    font-weight: 700;
+    line-height: 1.1;
+    margin:10px 0;
+}
+
+.mentorwho .mw-left p{
+    width: 100%;
+    text-align: center;
+    font-size: var(--para);
+    color: #6c757d;
+    line-height: 1.5;
+    /* text-align: left; */
+    margin-bottom:1.5rem;
+    padding: 0rem 1rem 0 0; 
+}
+.mentorwho .mw-left .mw-buttons{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.mentorwho .mw-left .mw-buttons .mw-btn1,
+.mentorwho .mw-left .mw-buttons .mw-btn2{
+    width:150px;
+    height: 75px;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    background: var(--satan);
+    /* background-image: url("https://maarg.startupindia.gov.in/static/media/Orange%20button%20Rectangle.e08530919ccdef966d8464daffdde94e.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; */
+    /* text-transform: uppercase; */
+    -webkit-transition: all 0.1s ease-in;
+    transition: all 0.1s ease-in;
+}
+
+
+.mentorwho .mw-right{
+    width: 50%;
+    display: flex;
+    
+}
+.mentorwho .mw-right img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width:960px) {
+    
+.mentorwho .mw-right,
+.mentorwho .mw-right img{
+    display: none;
+    
+}
+}
+
+
+
+

@@ -1,0 +1,160 @@
+
+.ga-con{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #f3f3f3;
+}
+.game{
+    max-width: 1360px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    padding: 5rem 2.5rem;
+}
+
+.game .g-left{
+    width: 50%;    
+    display: flex;
+    height: 100%;
+    object-fit: cover;
+}
+
+.game .g-left img{
+    width: 100%;       
+    height: 100%;
+}
+.game .g-left .appear{
+    display: none;
+}
+
+
+.game .g-right{
+    width: 50%;
+    height: 100%;
+    padding: 0 0 0 3rem;
+    flex-direction: column;
+    display: flex;
+    gap: 0.5rem;
+    
+}
+.game .g-right .g-heading{
+    max-width: 1280px;
+    width: 100%;
+
+    font-size: var(--heading);
+    /* padding: 0  0 0 2.5rem; */
+    color: var(--bg-black);
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 0 auto 10px auto;
+    text-align: left;      
+}
+
+.game .g-right .g-box{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+    /* margin: 0.3rem 0; */
+}
+.game .g-right .g-box .gcon{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--para);
+
+}
+
+.game .g-right .g-box .gcon>img{
+    width: 30px;
+    height: 30px;
+}
+
+.game .g-right .g-box .gcon .g-jugad{
+width: 100%;
+height: 4.5rem;
+background-color: #f3f3f3;
+}
+
+.game .g-right .g-box .g-text{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    /* gap: 0.5rem; */
+
+}
+.game .g-right .g-box .g-text h4{
+    font-size: 24px;
+    color: #1a1a1a;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+}
+.game .g-right .g-box .g-text p{
+    margin-bottom: 20px;
+    font-size: var(--para);
+    line-height: 1.2;
+    font-weight: 400;
+    color: #292929;
+
+}
+
+
+
+@media (max-width:1000px) {
+
+    .game .g-left .appear{
+        display: block;
+        height: 500px;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .game .g-left .disappear{
+        display: none;
+    }
+    
+}
+
+@media (max-width:800px) {
+
+    .game .g-left .disappear{
+        display: block;
+        width: 100%;
+    }
+
+    .game .g-left .appear{
+        display: none;
+    }
+
+    .game{
+        max-width: 1360px;
+        width: 100%;
+        margin: 10rem auto;
+        display: flex;
+        flex-direction: column;
+        padding: 0 2.5rem;
+        row-gap: 3rem;
+    }
+    .game .g-left{
+        width: 100%;    
+    }
+    .game .g-right{
+        width: 100%;    
+        padding: 0;
+    }
+    
+    
+    
+}
+
+
+
+
+
+
+

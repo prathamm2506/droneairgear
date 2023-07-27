@@ -1,0 +1,118 @@
+#intern_pro{
+    padding: 0;
+    margin: 0;
+}
+#intern_pro .intern_pro{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    gap: 1rem;
+}
+#intern_pro .gap{
+    gap: 2rem;
+    /* padding: 0 2rem; */
+
+}
+#intern_pro .intern_pro .intern_pro_img{
+    width: 40%;
+    /* background-color: black; */
+}
+#intern_pro .intern_pro .intern_pro_img img{
+    object-fit: content;
+    object-position: center;
+    width: 100%;
+}
+/* #intern_pro .intern_pro .intern_pro_img .image{
+    width: 100%;
+    height: 400px;
+} */
+#intern_pro .intern_pro .intern_pro_info{
+    width: 40%;
+}
+#intern_pro .intern_pro .intern_pro_info span{
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    line-height: 1.5;
+    color: #717375;
+}
+#intern_pro .intern_pro .intern_pro_info h1{
+    margin-bottom: 15px;
+    display: block;
+    color: #484848;
+}
+#intern_pro .intern_pro .intern_pro_info h2{
+    display: block;
+    color: #484848;
+    margin-bottom: 15px;
+
+}
+
+#intern_pro .intern_pro .intern_pro_info p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #717375;
+    line-height: 1.75;
+    margin-bottom: 20px;
+}
+#intern_pro .intern_pro .intern_pro_info .shop_ad{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1rem;
+}
+#intern_pro .intern_pro .intern_pro_info .shop_ad i{
+    color: #484848;
+}
+#intern_pro .intern_pro .intern_pro_info .shop_ad p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #717375;
+    display: flex;
+    line-height: 1.5;
+    /* margin-bottom: 20px; */
+}
+
+#intern_pro .intern_pro .intern_pro_info .uni_btn{
+    margin-top: 50px;
+    margin-bottom: 64px;
+}
+#intern_pro .intern_pro .intern_pro_info .uni_btn .uni_button{
+    
+
+    border-radius: 4px;
+    text-transform: none;
+    text-align: center;
+    max-width: 320px;
+    -webkit-transition: none;
+    transition: none;
+    color: #fff;
+    background-color: #0056d2;
+    box-shadow: inset 0 0 0 1px #0056d2;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+    letter-spacing: -0.1px;
+    padding: 12px 32px;
+
+}
+
+@media (max-width: 1000px){
+    #intern_pro .intern_pro{
+        flex-direction: column;
+        align-items: center;
+    }
+    #intern_pro .intern_pro .intern_pro_info{
+        width: 90%;
+    }
+    #intern_pro .intern_pro .intern_pro_img{
+        width: 90%;
+    }
+}

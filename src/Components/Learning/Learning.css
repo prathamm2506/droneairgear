@@ -1,0 +1,155 @@
+
+.learn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+
+}
+.learning{
+    max-width: 1600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem auto;
+    padding: 3rem 0;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+}
+.learning h1{
+    max-width: 1280px;
+    width: 100%;
+    font-size: var(--heading);
+    padding: 0  0 0 2.5rem;
+    color:  var(--bg-black);
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 0 auto 15px auto;
+    text-align: left;
+}
+
+.learning .l-row{
+    max-width: 1280px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    align-items: flex-start;
+    justify-content: center;
+    /* background-color: #2e2e2e; */
+    gap: 1rem;
+}
+
+.learning .l-row .l-box{
+    width: 300px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding:1rem 1.5rem 2rem 1.5rem;
+    /* background-color: aliceblue; */
+    
+}
+
+.learning .l-row .l-box .l-top{
+    width: 100%;
+    height: 80px;
+    display: flex;
+
+    align-items: center;
+    justify-content: left;
+}
+.learning .l-row .l-box .l-text h4{
+    font-size: var(--small);
+    height: 60px;
+    color: #333;
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.learning .l-row .l-box .l-text p{
+    font-size: var(--small);
+    color: #6c757d;
+    line-height: 1.2;
+    /* text-align: left; */
+    margin-bottom: 0.5rem;
+}
+
+
+
+
+@media (max-width:1280px) {
+    .learning .l-row .l-box{
+        width: 250px;
+          padding:1rem 1rem 2rem 1rem;
+        /* background-color: aliceblue; */
+        
+    }
+    .learning .l-row{
+        gap: 1rem;
+    }
+    .learning .l-row .l-box .l-text h4{
+        height: 50px;
+    }
+
+    
+}
+@media (max-width:1180px) {
+
+    .learning .l-row .l-box .l-text h4{
+        height: 50px;
+    }
+    .learning .l-row .l-box{
+        width: 200px;
+          padding:1rem 1rem 2rem 1rem;
+        /* background-color: aliceblue; */
+        
+    }
+
+    
+}
+@media (max-width:1080px) {
+
+    .learning .l-row .l-box .l-text h4{
+        height: 40px;
+    }
+    
+}
+@media (max-width:840px) {
+
+    .learning .l-row .l-box .l-text h4{
+        height: 30px;
+    }
+    .learning .l-row .l-box{
+        width: 280px;
+          padding:1rem 2rem 2rem 2rem;
+        /* background-color: aliceblue; */
+        
+    }
+    .learning h1{
+        padding: 0  0 0 2rem;
+
+    }
+
+    
+}
+@media (max-width:640px) {
+
+    .learning .l-row .l-box .l-text h4{
+        height: 20px;
+    }
+
+
+    
+}
+
+
+
+
+

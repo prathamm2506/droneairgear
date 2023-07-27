@@ -1,0 +1,117 @@
+
+.ibenefits{
+    max-width: 1280px;
+    height: 100%;
+    width: 100%;
+    margin: 5rem auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.ibenefits .ib-heading{
+    max-width: 1280px;
+    width: 100%;
+    font-size: clamp(1.5rem,3.5vw,3.2rem);
+    padding: 0 ;
+    color: #1a1a1a;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 0 auto 15px auto;
+    text-align: center;
+
+}
+
+.ibenefits .ib-row{
+    max-width: 1280px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-evenly;
+    gap: 1rem;
+}
+
+
+
+
+
+.ibenefits .ib-row  .ib-inner{
+    z-index: 20;
+    background-color: transparent;
+    width: 300px;
+    height: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:0rem 0.5rem;
+    flex-direction:column;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+
+}
+
+.ibenefits .ib-row  .ib-inner .ib-icon{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0 1rem 0;
+    height: 180px;
+    object-fit: contain;
+}
+.ibenefits .ib-row  .ib-inner .ib-icon .ib-iconn{
+    /* width: 100%; */
+    height: 150px;
+    
+}
+
+.ibenefits .ib-row  .ib-inner .ib-text{
+    padding: 0 1rem;
+    margin: 0;
+}
+.ibenefits .ib-row  .ib-inner .ib-text h2{
+    font-size: var(--para);
+    color: #1a1a1a;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.ibenefits .ib-row  .ib-inner .ib-text p{
+    margin-bottom: 20px;
+    font-size: var(--small);
+    line-height: 1.2;
+    text-align: center;
+    font-weight: 400;
+    color: #292929;
+}
+
+.ib-timeline{
+    width: 100%;
+    height: 100%;
+    margin: 5rem auto;
+    object-fit: cover;
+}
+.ib-timeline img{
+    width: 100%;
+    object-fit: contain;
+    height: 100%;
+}
+
+.appe{
+    display: none;
+}
+
+
+@media (max-width:1000px) {
+    
+.dis{
+    display: none;
+}
+.appe{
+    display: block;
+
+}
+}
+

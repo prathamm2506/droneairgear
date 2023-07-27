@@ -1,0 +1,72 @@
+.coco{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cardColor);
+    padding: 1rem 1rem 1.5rem;
+    border-radius: 1rem;
+    z-index: 20;
+    margin-bottom: 20rem;
+}
+
+
+.cocoa{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0;
+    row-gap: 20px;
+    padding: 0;
+    margin: 0;
+    justify-content: space-evenly;
+
+}
+
+.cocoa Link{
+    text-decoration: none;
+}
+
+.beans{
+    /* flex-basis: 4; */
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+.beans:hover>p{
+    color: var(--devil);
+}
+.beans img{
+    width: 50px;
+    height: 50px;
+}
+/* .beans p{
+    text-decoration: none;
+} */
+
+.beans .pack{
+    font-size: 14px;
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+
+
+}
+
+
+.grinder{
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0 0 5px;
+    width: 100%;
+    text-align: center;
+}
+
+
+

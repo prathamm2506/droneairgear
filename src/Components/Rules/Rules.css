@@ -1,0 +1,125 @@
+.rules {
+    max-width: 1180px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 100px auto 0;
+    padding: 5rem 10px;
+}
+
+.rules>h3 {
+    
+    width: 100%;
+    font-size: var(--heading);
+    padding: 0 10px;
+    color: var(--bg-black);
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 0 auto 20px auto;
+    text-align: center;
+}
+
+.rules>p {
+    max-width:1000px;
+    padding: 0 10px;
+    font-size: var(--small);
+    color: #6c757d;
+    line-height: 1.2;
+    /* text-align: left; */
+    margin: 0 auto 20px auto;
+    text-align: center;
+
+}
+
+
+
+.rules .rul-tab {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 20px auto;
+    height: 100%;
+    border: 1px solid #fff;
+
+    background: url('../../assets/TermsPdf/RPAS-Dos-and-Dont.pdf');
+
+    background: url('../../assets/TermsPdf/RPS-FAQs-REVISED.pdf');
+
+}
+
+.rules .rul-tab:hover {
+    border: 1px solid #b6b6b6;
+}
+
+.rules .rul-tab:hover>.rul-name {
+    background: #b6b6b6;
+}
+
+.rules .rul-tab:hover>.rul-dw {
+    background: #ffffff;
+    color: #1179ef;
+
+}
+/* .rules .rul-name>p::before{
+
+    background: hsl(45 100% 70%);
+    content: "";
+    width: 100%;
+    height: 100%;
+    inset: 0;
+    position: absolute;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s ease-in-out;
+    z-index: -1;
+
+}
+.rules .rul-tab:hover>.rul-name>p::before {
+    transform: scaleX(1);
+    transform-origin: left;
+} */
+
+.rules .rul-tab .rul-dw {
+    width: 60px;
+    background: #1179ef;
+    display: flex;
+    align-items: center;
+    transition: 0.4s;
+    justify-content: center;
+    color: #fff;
+    font-size: 24px;
+}
+
+
+
+.rules .rul-tab .rul-name {
+    width: calc(100% - 60px);
+    background: #f3f3f3;
+    transition: 0.4s;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #000;
+    font-size: var(--para);
+    padding: 10px 20px;
+}
+
+
+
+@media (max-width:800px) {
+
+
+    .rules .rul-tab {
+        flex-direction: column;
+    }
+
+
+    .rules .rul-tab .rul-dw,
+    .rules .rul-tab .rul-name {
+        width: 100%;
+
+    }
+
+}

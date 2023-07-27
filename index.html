@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Droneairgear  </title>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link href="https://www.flaticon.com/blog/your-path-to-uicons/css/uicons-regular-rounded.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+  
+    <script src="https://kit.fontawesome.com/954d28292e.js" crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/954d28292e.js" crossorigin="anonymous"></script>
+    <style>
+
+  
+      .mloader-wrapper {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #0b0b0b;
+        display: grid;
+        place-items: center;
+      }
+  
+      .mloader {
+        border: 4px solid #e3e3e3;
+        border-top: 4px solid rgb(251, 83, 38);
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        animation:mspin 1s linear infinite;
+      }
+  
+      @keyframes mspin {
+        0% {
+          transform: rotate(0deg);
+        }
+  
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+    
+  </head>
+  <body>
+    <div id="root">
+      <div class="mloader-wrapper">
+        <div class="mloader"></div>
+      </div>
+    </div>
+    
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

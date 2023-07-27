@@ -1,0 +1,51 @@
+.cc-maindiv h1{
+    font-size: var(--big-font);
+    text-align: center;
+}
+
+.cc-maindiv p{
+    font-size: var(--para);
+    text-align: justify;
+}
+
+.cc-maindiv h2{
+    font-size: var(--heading);
+    text-align: left;
+}
+
+.cc-maindiv li{
+    font-size: var(--para);
+    list-style: square;
+}
+
+.cc-overview{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15rem;
+    margin-bottom: 10rem;
+}
+
+.cc-h2{
+    font-size: var(--heading);
+    text-align: left;
+    margin-top: 5rem;
+}
+
+.cc-overfield{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cc-overfield h2{
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.cc-overfield p{
+    font-size: var(--para);
+}

@@ -1,0 +1,30 @@
+
+
+.startup2{
+        margin-top: 3rem !important;
+        display: block;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0;
+    overflow-x: auto;
+}
+
+
+.st2-table{
+        margin: 0 !important;
+    border: none;
+        width: 100%;
+    margin-bottom: 1rem;
+    color: #343a40;
+        border-collapse: collapse;
+}
+.st2-table th{
+    padding: 0.75rem;
+}
+
+td>img{
+    width: 100%;
+    border-radius: 6px;
+    height: 100px;
+    object-fit: contain;
+}

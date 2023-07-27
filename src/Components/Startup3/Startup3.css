@@ -1,0 +1,190 @@
+.startup3 {
+    max-width: 1280px;
+    width: 100%;
+    display: flex;
+    margin: 5rem auto;
+    flex-direction: column;
+    padding: 0 3rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.st3-left {
+    width: 100%;
+    display: flex;
+    padding: 5rem 0 0 0;
+    /* align-items: center; */
+    /* gap: 1rem; */
+    flex-direction: column;
+
+}
+
+.st3-left .st-heading {
+    font-size: var(--heading);
+    width: 100%;
+    /* padding: 0 0 0 2.5rem; */
+    text-align: center;
+    color: var(--bg-black);
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 10px 0;
+
+}
+
+
+
+.st3-right {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+
+
+
+@media (max-width:1080px) {
+    
+
+    .st3-left .st3-con {
+    padding: auto;
+}
+
+    .st3-right,
+    .st3-right img {
+        display: none;
+    }
+    .st3-left {
+        width: 100%;
+
+        padding:0 1rem;
+
+    
+    }
+
+}
+
+@media (max-width:680px) {
+
+    .st3-left .st-heading{
+        font-size: 36px;
+    }    
+
+}
+
+
+
+.stp3-spin{
+    overflow: hidden;
+    margin-top: var(--geist-space-16x-negative);
+    position: absolute;
+    left: 460px;
+    top: 260px;
+    aspect-ratio: 1/1;
+}
+
+.stp3-spin1{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    background-image: url('../../assets/globe.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 1000px;
+    width: 1000px;
+}
+.stp3-spin1::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 50%;
+    width: 100%;
+    pointer-events: none;
+    background: linear-gradient(to bottom,transparent 0,var(--white) 60%);
+}
+
+.stp3-spin2{
+    left: 0;
+    top: 0;
+    position: absolute;
+    z-index: 0;
+    opacity: 0;
+    will-change: opacity;
+    transition: opacity .5s ease .5s;
+    width: 100%;
+    height: 100%;
+    contain: layout paint size;
+    opacity: 1;
+}
+
+.stp3-spin2::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 50%;
+    width: 100%;
+    pointer-events: none;
+    background: linear-gradient(to bottom,transparent 0,#fff 60%);
+}
+
+.stp3-canvas{
+    outline: none;
+    width: 100%;
+    height: 100%;
+    cursor: grab;
+
+}
+
+.stp3-canvas::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 50%;
+    width: 100%;
+    pointer-events: none;
+    background: linear-gradient(to bottom,transparent 0,#fff 60%);
+
+}
+
+
+
+/* 
+
+
+    {/* <div className="st3-right">
+      <img src="https://global-uploads.webflow.com/61c1ae3ff5494602327bf16a/61c1ae40f549468a807bf1cb_presence-map.png" alt="" />
+    </div> */
+/* 
+    <div className="st3-spin">
+      <div className="stp3-spin1">
+        <div className="stp3-spin2">
+          <div className="stp3-canvas" style={{width:'1000',height:'1000'}}>
+
+          </div>
+        </div>
+      </div>
+    </div>  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

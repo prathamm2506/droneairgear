@@ -1,0 +1,129 @@
+.mainclassabove h1{
+    font-size: var(--heading);
+    text-align: center;
+    margin-top: 2rem;
+}
+
+
+.projSale{
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 0;
+
+}
+.sp-ssl{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 2rem 0;
+}
+
+
+.ps-slider{
+    padding: 0 3rem;
+    width: 100%;
+}
+
+
+.ps-dabba{
+    width: 350px;
+    height: 100%;
+
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+.ps-author{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight: 400;
+    color: #ce3008;
+
+    margin: 0 0 5px;
+}
+
+.ps-author p:nth-of-type(1){
+    color: #222222;
+}
+.ps-author p:last-of-type{
+    color: var(--yakuza);
+    font-size: 12px;
+
+}
+
+.ps-dabba>img{
+    margin: 0 0 10px;
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.ps-course{
+    width: 100%;
+    font-size:  var(--para);
+    font-weight: 600;
+    line-height: 1.2;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #202020;
+}
+
+.ps-desc{
+    width: 100%;
+    font-size: var(--small);
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: #818181;
+    line-height: 1.5;
+    text-align: justify;
+
+}
+
+.ps-btm{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.ps-enrolled{
+    width: max-content;
+    font-size: var(--small);
+    font-weight: 400;
+    color: #ce3008;
+
+    line-height: 1.5;
+    text-align: justify;
+}
+
+
+.ps-btn{
+    padding: 5px 8px;
+    background: var(--satan);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    transition: all 300ms ease-in-out;
+
+}
+
+
+
+
+
+

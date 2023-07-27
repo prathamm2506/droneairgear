@@ -1,0 +1,184 @@
+.f-box{
+    max-width: 1080px;
+    width: 100%;
+    margin: 100px  auto;
+    -webkit-box-shadow: 0 0 10px 5px var(--bg-grey);
+    -moz-box-shadow: 0 0 10px 5px var(--bg-grey);
+    box-shadow: 0 0 10px 5px var(--bg-grey);
+    border: 0 solid var(--blaack);
+    padding: 2rem 5rem 2rem 5rem;
+}
+
+.f-box label{
+    font-size: var(--small);
+    font-weight: 500;
+}
+
+.f-box h1{
+    font-size: var(--medium);
+    text-align: center;
+}
+
+.f-onerow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.f-onerow input{
+    width: 46.5%;
+    height: 40px;
+    margin-bottom: 1.2rem;
+    font-family: 'Comfortaa', cursive;
+    font-size: var(--small);
+    padding: .2rem .5rem .2rem .5rem;
+    font-weight: 500;
+}
+
+.f-onerow .input2{
+    width: 100%;
+}
+
+input::-webkit-outer-spin-button,
+     input::-webkit-inner-spin-button {
+     -webkit-appearance: none;
+     margin: 0;
+     }
+
+.f-radio{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+}
+
+.f-radio input[type='radio']:after {
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    /* background-color: #d1d3d1; */
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    /* border: 2px solid white; */
+}
+
+.f-radio input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: var(--red);
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+.f-radio label{
+    font-size: var(--small);
+    font-weight: 500;
+}
+
+.f-rr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.f-tworow{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.f-tworow select{
+    width: 100%;
+    height: 45px;
+    margin-bottom: 1.2rem;
+    font-family: 'Comfortaa', cursive;
+    font-size: var(--small);
+    padding: .2rem .5rem .2rem .5rem;
+    font-weight: 500;
+}
+
+option{
+    height: 45px;
+    background: var(--bg-grey);
+}
+
+option:hover{
+    background-color: var(--red);
+}
+
+.f-margintop{
+    margin-top: 1rem;
+}
+
+.f-margintop1{
+    margin-top: 3rem;
+}
+
+.f-testarea{
+    width: 100%;
+}
+
+.f-testarea textarea{
+    width: 99.4%;
+    padding: 10px 0 0 5px;
+    margin: 0;
+    resize: none;
+    margin-bottom: 1rem;
+    font-size: var(--small);
+    font-family: 'Comfortaa', cursive;
+    font-weight: 500;
+}
+
+.f-testarea textarea::placeholder{
+    font-size: var(--small);
+    font-family: 'Comfortaa', cursive;
+    font-weight: 500;
+}
+
+input[type=file]::file-selector-button {
+    margin-right: 20px;
+    border: none;
+    font-weight: 500;
+    background: var(--red);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;    
+    transition: all .5s ease;
+    font-family: 'Comfortaa', cursive;
+  }
+  
+  /* input[type=file]::file-selector-button:hover {
+    background: var(--text-grey);
+  } */
+
+  @media(max-width:800px){
+    .f-onerow{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .f-onerow input{
+        width: 100%;
+    }
+  }
+
+  @media(max-width:500px){
+    .f-radio{
+        justify-content: center;
+    align-items: center;
+    }
+  }

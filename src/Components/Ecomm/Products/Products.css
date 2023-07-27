@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+#pro1{
+    text-align: center;
+    font-family: 'Spartan',sans-serif;
+    margin: 3rem 0;
+    padding: 3rem 0 0;
+}
+#pro1 .pro-container{
+    width: 100%;
+    display: flex;
+    justify-content:space-between ;
+    
+    gap: 20px;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+.productsShop{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    width: 80%;
+    margin: 0 auto;
+    /* padding: 0 2rem; */
+    
+}
+
+
+.pro-head{
+    /* max-width: 1280px; */
+    width: 80%;
+    font-size: var(--heading);
+    /* padding: 0 80px ; */
+    color: #1a1a1a;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 0 auto 10px auto;
+    text-align: left;
+}
+
+.pro{
+    width: 280px;
+    height: 360px;
+    /* min-width: 250px; */
+    padding: 10px 12px;
+    border: 1px solid #dbdbdb;
+    border-radius:25px ;
+    cursor: pointer;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
+    /* height: 100%; */
+}
+.pro .proImg{
+    width: 100%;
+    border-radius:20px ;
+    border: 1px solid #dbdbdb;
+    object-fit: contain;
+    height: 220px;
+
+    object-position: center;    
+    overflow: hidden;
+
+}
+.pro .proImg>img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+    object-position: center;   
+    border-radius:20px;
+}
+.zhandu{
+    z-index: 10;
+
+}
+
+
+.pro:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.6);
+}
+
+.pro .des{
+    font-family: 'Spartan',sans-serif;  
+    text-align: start;
+    width: 100%;
+    padding: 10px 10px;
+    /* margin-bottom: 1rem; */
+
+}
+.pro .des span{
+    font-family: 'Spartan',sans-serif;  
+    color: #606063;
+    font-size: 12px;
+}
+.pro .des h5{
+    padding-top: 7px;
+    font-family: 'Spartan',sans-serif;  
+    font-size: 14px;
+    color: #1a1a1a;
+}
+.pro .des i{
+    font-size: 12px;
+    color: rgb(243, 181, 25);
+}
+.pro .des h4{
+    font-family: 'Spartan',sans-serif;  
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #444;
+}
+.pro .cart{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    color: #444;
+    background-color: #fff;
+    border: 1px solid #444;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    bottom: 20px ;
+    right: 20px;
+}
+
+.pro .delete{
+    background-color: #f03d3d;
+    border: 1px solid #f03d3d;
+    color: #fff;
+    cursor: pointer;
+    z-index: 20;
+
+}
+
+.section-p1{
+    /* padding: 40px 80px; */
+}
+.section-m1{
+    margin: 40px 0;
+}
+
+
+
+
+
+
+
+@media (max-width:1000px) {
+    .productsShop{
+        flex-direction: column;
+    }
+    #pro1 .pro-container{
+        width: 100%;
+        justify-content:center ;
+        align-items: center;        
+    }
+}
+
+
+
+@media (max-width:800px) {
+    .zhandu{
+        flex-direction: column !important;
+        gap: 1rem !important;
+    
+    }
+    .zhandu1{
+        padding: 0 !important;
+        width: 100% !important;
+    
+    }
+}
+
+
+

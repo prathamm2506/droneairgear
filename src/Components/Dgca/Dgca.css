@@ -1,0 +1,50 @@
+.ind_banner{
+    /* background-image: linear-gradient(120deg, rgb(255, 83, 3) 0%, rgb(212, 211, 211) 50%, rgba(4, 211, 4, 0.75) 100%); */
+    background:linear-gradient(0deg, rgba(113, 113, 113, 0.3), rgba(0, 0, 0, 0.59)), url(./dgcaa.jpg);
+    background-size:cover;
+
+    padding: 3rem 0;
+}
+.banCon{
+    max-width: 1280px;
+    width: 100%;
+    margin: 5rem auto;
+    padding: 0 20px;
+
+}
+.ind_banner .logo{
+    height: 100%;
+    width: 250px;
+    text-align: left;
+    margin-bottom: 1rem;
+    color: #ffffff;
+    z-index: 1000;
+
+}
+.ind_banner .logo img{
+    height: 120px;
+    width: 280px;
+    object-fit: cover;
+    object-position: center;
+
+    padding: 0;
+    margin: 0;
+}
+.ind_banner .info{
+    font-weight: 400;
+    font-size: var(--para);
+    line-height: 1.8;
+    margin-bottom: 2rem;
+
+    /* padding:0 4rem ; */
+    color: #ffffff;
+}
+.ind_banner .write_by{
+    font-size: var(--para);
+    font-weight: 400;
+    /* padding:0 4rem ; */
+
+    line-height: 1.5;
+    color: #e1e1e1;
+    /* margin-bottom: 3rem; */
+}

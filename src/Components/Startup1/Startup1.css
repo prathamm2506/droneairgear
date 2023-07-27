@@ -1,0 +1,148 @@
+
+
+.startup1{
+    max-width: 1080px;
+    width: 100%;
+    display: flex;
+    margin: 10rem auto 5rem auto;
+    padding:0 3rem;
+    row-gap:8rem ;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.startup1 .st-boxs{
+    width: 45.3%;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-direction: column;
+    /* border: 1px solid #838383; */
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width:800px) {
+    .startup1 .st-boxs{
+        width: 90.3%;
+
+    }
+}
+
+
+
+.startup1 .st-boxs .st-bg{
+    background: var(--satan);
+    box-shadow: rgba(255, 255, 255, 0.44) -7.30709px -8.22047px 12.7874px, rgba(0, 0, 0, 0.07) 8.22047px 7.30709px 28.315px;
+    border-radius: 50px 50px 10.0472px 10.0472px;
+    height: 100%;
+    padding-bottom: 6px;
+    position: relative;
+} 
+
+.startup1 .st-boxs .st-bg .st-title{
+    width: 100%;
+    text-align: center;
+    margin-top: -20px;
+    position: absolute;
+    background-color: #fff;
+}
+.startup1 .st-boxs .st-bg .st-title .st-titu{
+    background: var(--satan);
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 7.30709px 12.7874px;
+    border-radius: 11.874px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 18.2677px;
+    line-height: 22px;
+    color: rgb(255, 255, 255);
+    padding: 15px 10px;
+    position: relative;
+    width: 70%;
+    margin-top: -31px !important;
+}
+.startup1 .st-boxs .st-bg .st-title .st-titu::before{
+    position: absolute;
+    top: 15px;
+    left: 12px;
+    width: 2px;
+    height: 21px;
+    background: rgb(255, 255, 255);
+    content: "";
+}
+.startup1 .st-boxs .st-bg .st-title .st-titu::after{
+    position: absolute;
+    top: 15px;
+    right: 12px;
+    width: 2px;
+    height: 21px;
+    background: rgb(255, 255, 255);
+    content: "";
+}
+
+
+.startup1 .st-boxs .st-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(255, 255, 255, 0.44) -7.30709px -8.22047px 12.7874px, rgba(0, 0, 0, 0.07) 8.22047px 7.30709px 28.315px;
+    border-radius: 10.0472px;
+    padding: 1rem  1.5rem 1.5rem 1.5rem;
+    gap: 1rem;
+}
+.startup1 .st-boxs .st-box .st-icon{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+
+}
+.startup1 .st-boxs .st-box .st-icon img{    
+    height: 180px;
+}
+.startup1 .st-boxs .st-box .st-button{    
+    width: max-content !important;
+    font-size: 12px !important;
+    background: rgb(255, 255, 255);
+    border: 0.883005px solid var(--devil);
+    box-shadow: rgba(0, 0, 0, 0.01) 0px 32px 13px, rgba(0, 0, 0, 0.05) 0px 18px 11px, rgba(0, 0, 0, 0.09) 0px 8px 8px, rgba(0, 0, 0, 0.1) 0px 2px 4px, rgba(0, 0, 0, 0.1) 0px 0px 0px;
+    border-radius: 28px;
+    text-decoration: none;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    gap: 2px;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgb(75, 75, 75);
+    padding: 8px 35px;
+}
+
+.startup1 .st-boxs .st-box .st-button span{    
+
+    color: rgb(128, 128, 128);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,252 @@
+.aboutdrone{
+    width: 1280px;
+}
+
+.mainone{
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ad-firstdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ad-firstdiv h1{
+    width: 1280px;
+    font-size: 48px;
+    /* padding: 0  0 0 2.5rem; */
+    color: #1a1a1a;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 0 auto 10px auto;
+    text-align: center;   
+}
+
+.ad-firstdiv p{
+
+    width: 45rem;
+    margin-bottom: 20px;
+    font-size: var(--para);
+    line-height: 1.2;
+    text-align: center;
+    font-weight: 400;
+    color: var(--text-grey);
+}
+
+.ad-secondiv{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 2rem;
+}
+
+.ad-leftdiv{
+    width: 30%;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.ad-insidediv h4{
+    font-size: var(--medium);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items:center;
+    gap: .8rem;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.ad-insidediv p{
+    font-size: var(--para);
+    text-align: right;
+    color: var(--text-grey);
+}
+
+.ad-centerdiv{
+    width: 50%;
+    height: 350px;
+    background-image: url(../../assets/drone0.png);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    display: flex;
+    z-index: 20;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+/* .ad-centerdiv img{
+    width: 100%;
+    object-fit: cover;
+} */
+
+.ad-rightdiv{
+    width: 30%;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.ad-insidediv1 h4{
+    font-size: var(--medium);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items:center;
+    gap: .8rem;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.ad-insidediv1 p{
+    font-size: var(--para);
+    text-align: left;
+    color: var(--text-grey);
+}
+
+.icon{
+    font-size: var(--medium);
+}
+
+.ad-textdiv h1{
+    font-size: var(--big-font);
+    text-transform: uppercase;
+    text-align: center;
+}
+.ad-textdiv p{
+    font-size: var(--para);
+    /* width: 90%; */
+    margin: 2rem auto;
+    color: var(--text-grey);
+    line-height: 26px;
+}
+
+.ad-components h3{
+    font-size: var(--heading);
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.ad-imagebox{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    padding: 0 2rem 0 0;
+    gap: 20%;
+    margin-bottom: 5rem;
+}
+
+.ad-imgsection{
+    width: 40%;
+}
+
+.ad-imgsection img{
+    width: 100%;
+}
+
+.ad-mainconfig{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ad-entity{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.ad-sideone{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.ad-icontext{
+    display: flex;
+    flex-direction: column;
+}
+
+.ad-icontext h5{
+    margin: 0;
+    padding: 0;
+    font-size: var(--medium);
+}
+
+.ad-icontext p{
+    margin: 0;
+    padding: 0;
+    font-size: var(--small);
+}
+
+.ad-icon1{
+    font-size: var(--heading);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ad-applications{
+    width: 100%;
+    background: var(--bg-grey);
+    padding: 1rem 0 0 0;
+}
+
+.container2{
+    width: var(--container-width-lg);
+    margin: 0 auto;
+}
+
+.container2 h3{
+    font-size: var(--heading);
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.ad-appgol{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* gap: 2rem; */
+    padding: 0 4rem 0 4rem;
+}
+
+.ad-perfect{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ad-perfect img{
+    width: 50%;
+    height: 7.3rem;
+    border-radius: 50%;
+}
+
+.ad-perfect p{
+    margin-bottom: 5rem;
+    font-size: var(--para);
+    font-weight: 700;
+    line-height: 24px;
+}

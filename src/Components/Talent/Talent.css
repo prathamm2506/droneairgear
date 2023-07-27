@@ -1,0 +1,175 @@
+
+
+
+.talent{
+    max-width: 1360px;
+    width: 100%;
+    margin: 10rem auto;
+    display: flex;
+    padding: 0 2.5rem;
+    justify-content: space-between;
+}
+
+.talent .t-left{
+    width: 50%;    
+    padding:  0;
+    display: flex;
+    height: 100%;
+    object-fit: cover;
+}
+
+.talent .t-left img{
+    width: 100%;        
+    height: 100%;
+}
+
+
+.talent .t-right{
+    width: 50%;
+    height: 100%;
+    /* padding: 0 0 0 3rem ; */
+    flex-direction: column;
+    display: flex;
+    gap: 0.5rem;
+    
+}
+.talent .t-right .t-heading{
+    max-width: 1280px;
+    width: 100%;
+    font-size:var(--heading);
+    /* padding: 0  0 0 2.5rem; */
+    color: var(--bg-black);
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 0 auto 10px auto;
+    text-align: left;      
+}
+
+.talent .t-right .t-box{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+    /* margin: 0.3rem 0; */
+}
+/* .talent .t-right .t-box .tcon{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--para);
+
+} */
+
+/* .talent .t-right .t-box .tcon .t-jugad{
+width: 100%;
+height: 4.5rem;
+background-color: #ffffff;
+
+} */
+.talent .t-right .t-box .t-text{
+    width: 80%;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    /* gap: 0.5rem; */
+
+}
+.talent .t-right .t-box .t-text h4{
+    font-size: 24px;
+    align-items: center;
+    color: var(--bg-black);
+    display: flex;
+    flex-direction: row;
+    gap: 0.8rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+}
+.talent .t-right .t-box .t-text p{
+    margin-bottom: 20px;
+    font-size: var(--para);
+    line-height: 1.2;
+    font-weight: 400;
+    color: #292929;
+    padding: 0 0 0 2.4rem ;
+
+}
+.talent .t-left .appear{
+    display: none;
+}
+
+@media (max-width:1000px) {
+
+    .talent .t-left .appear{
+        display: block;
+        height: 500px;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .talent .t-left .disappear{
+        display: none;
+    }
+    
+}
+
+
+
+
+
+@media (max-width:800px) {
+
+    .talent .t-left .disappear{
+        display: block;
+        width: 100%;
+    }
+
+    .talent .t-left .appear{
+        display: none;
+    }
+
+    .talent{
+        max-width: 1360px;
+        width: 100%;
+        margin: 10rem auto;
+        display: flex;
+        row-gap: 3rem;
+        padding: 0 2.5rem;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .talent .t-left{
+        width: 100%;    
+        padding: 1rem 0 0 0;
+        display: flex;
+        height: 100%;
+        object-fit: cover;
+    }
+    .talent .t-right{
+        width: 100%;    
+        height: 100%;
+        /* padding: 0 0 0 3rem ; */
+        flex-direction: column;
+        display: flex;
+        gap: 0.5rem;
+    }
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+

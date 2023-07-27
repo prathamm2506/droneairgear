@@ -1,0 +1,231 @@
+.programs {
+    /* max-width: 1360px; */
+    width: 100%;
+    padding: 0;
+    /* background: #979797; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+
+}
+
+.programs .pr-header {
+    height: 300px;
+    width: 100%;
+    
+    padding: 5rem 0 0;
+    background: #191919;
+}
+
+/* .program{
+    max-width: 1360px;
+    width: 100%;
+    padding: 0 2rem;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+} */
+.programs .pr-heading {
+    max-width: 1280px;
+    width: 100%;
+    font-size: 48px;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 0 auto 10px auto;
+    text-align: left;
+}
+
+.firebaseFilter {
+    max-width: 600px;
+    width: 100%;
+    padding: 0 2rem;
+}
+
+.programs p {
+    max-width: 1280px;
+
+    width: 100%;
+    font-size: var(--small);
+    color: #ffffff;
+    line-height: 1.2;
+    /* text-align: left; */
+    margin: 0 auto 10px auto;
+
+    /* padding: 0 0 0 10px; */
+
+}
+
+.programs .pr-line {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+    justify-content: left;
+    padding: 1.5rem 0 0 2.5rem;
+}
+
+.programs .pr-line span {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    font-size: var(--small);
+    color: #6c757d;
+    line-height: 1.2;
+    /* text-align: left; */
+    margin-bottom: 0.5rem;
+}
+
+.programs .pr-line span img {
+    width: 20px;
+    height: 20px;
+}
+
+
+
+.pr-row {
+    max-width: 1280px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 2rem;
+    margin: 4rem auto 3rem;
+    padding: 0 0 0 2.5rem;
+}
+
+
+
+.mainfilters {
+    max-width: 1280px;
+    width: 100%;
+    padding: 0;
+    background: #ffffff;
+    display: flex;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: -4rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+    /* box-shadow: 0 0 4px rgba(72, 72, 72, .12), 0 2px 2px rgba(72, 72, 72, .08); */
+    border: 1px solid #d6d6d6;
+    border-radius: 8px;
+    padding: 3rem 2rem;
+}
+
+
+.mainfilter {
+    width: 25%;
+
+}
+
+
+.exp-btn{
+    font-family: 'Poppins', sans-serif;
+    width: max-content;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 600;
+    background: #173446;
+    font-size: 15.996px;
+    line-height: 20px;
+    padding: 8px 32px;
+    border: none;
+    /* background: #bdc3c7; */
+    color: #ffffff;
+    /* padding: 11px 12px 8px; */
+    line-height: 22px;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+
+@media (max-width:1280px) {
+    .mainfilters {
+        border-radius: 0;
+    }
+}
+@media (max-width:1000px) {
+    .pr-row {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        row-gap: 2rem;
+        column-gap: 2rem;
+        /* margin: 2rem 0; */
+        padding: auto;
+    }
+
+    .programs .pr-line {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        align-items: center;
+        justify-content: left;
+        padding: 1.5rem auto 0;
+    }
+
+    .program {
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    
+.mainfilters {
+    max-width: 1280px;
+    width: 100%;
+    padding: 0;
+    background: #ffffff;
+    display: flex;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 3rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+    /* box-shadow: 0 0 4px rgba(72, 72, 72, .12), 0 2px 2px rgba(72, 72, 72, .08); */
+    border: 0;
+    border-radius: 0;
+    padding: 3rem 2rem;
+}
+
+.mainfilter {
+    width: 100%;
+
+}
+.exp-btn{
+    display: none;
+}
+
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,135 @@
+.mentord{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 0 0;
+    margin: 0;
+    background: #fff;
+   
+    width: 100%;
+    /* overflow-x: hidden */
+}
+
+.mentord> h1{
+    font-size: var(--heading);
+    width: 100%;
+    /* padding: 0 0 0 2.5rem; */
+    text-align: center;
+    color: var(--bg-black);
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 10px 0;
+}
+.mentord .men_per_bg{
+    width: 100%;
+}
+.mentord .md-info{
+    max-width: var(--container-width-lg);
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 2rem 2rem 0;
+    
+}
+.mentord .md-info .md-left{
+    width:600px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    padding-top: 10px;
+}
+.mentord .md-info .md-left .md-fo{
+    width: 100%;
+}
+.mentord .md-info .md-left .md-fo h1{
+    font-size: var(--medium);
+    padding: 0 1rem;
+}
+.mentord .md-info .md-left .md-fo p{
+    font-size: var(--para);
+    padding: 0 1rem;
+}
+.mentord .md-info .md-left .md-fo ul{
+    margin:0 0 4rem 0;
+}
+.mentord .md-info .md-right{
+    width: 500px;
+}
+.mentord .md-info .md-right img{
+    width: 100%;
+}
+
+
+.mentorInfoImg{
+    max-width: 1280px;
+    width: 100%;
+    height: 100%;
+    margin: 3rem auto 0;
+    padding: 0 ;
+    object-fit: contain;
+    /* background-color: #fff; */
+    object-position: center;
+
+}
+.mentorInfoImg .lap{
+
+    width: 100%;
+    height: 100%;
+
+}
+.mentorInfoImg .tab{
+
+    width: 100%;
+    display: none;
+    height: 100%;
+
+}
+.mentorInfoImg .mob{
+
+    width: 100%;
+    height: 100%;
+    display: none;
+
+}
+
+@media (max-width:1000px) {
+    .mentorInfoImg .lap{
+        display: none;
+        width: 100%;
+        height: 100%;
+    
+    }
+    .mentorInfoImg .tab{
+    
+        width: 100%;
+        display: block;
+        height: 100%;
+    
+    }
+
+}
+
+@media (max-width:800px) {
+    .mentorInfoImg .tab{
+    
+        width: 100%;
+        display: none;
+        height: 100%;
+    
+    }
+    .mentorInfoImg .mob{
+    
+        width: 100%;
+        height: 100%;
+        display: block;
+    
+    }
+}
+

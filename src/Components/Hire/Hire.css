@@ -1,0 +1,143 @@
+
+
+.hire{
+    max-width: 1280px;
+    width: 100%;
+    margin: 5rem auto;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.hire  .h-left{
+    display: flex;
+    width: 37%;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: left;
+    padding: 1rem 0 1rem 2.5rem ;
+        
+}
+.hire  .h-left .h-heading{
+    width: 100%;
+    font-size: clamp(1.5rem,3.5vw,3.2rem);
+    color: #1a1a1a;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 0 auto 20px auto;
+    text-align: left;         
+}
+
+.hire  .h-left p{
+    width: 100%;
+    font-size: var(--para);
+    color: #6c757d;
+    line-height: 1.2;
+    /* text-align: left; */
+    margin-bottom:2rem;
+    padding: 0rem 1rem 0 0;      
+}
+ .h-button{
+    width: max-content;
+    padding: 10px 18px;
+    color: #fff;
+    font-weight: 600;
+    font-size: var(--para);
+    background-color: #d72323;
+    border-radius:4px ;
+}
+
+.hire  .h-right{
+    width: 63%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 2rem; */
+
+}
+.hire  .h-right .h-row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    row-gap: 1.5rem;
+    column-gap: 1.5rem;
+    justify-content: center; 
+    
+}
+.hire  .h-right .h-row a{
+    width: 180px;
+    height:100px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 15px rgba(87, 87, 87, 0.384) ;
+    
+}
+.hire  .h-right .h-row a img{
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+    
+}
+
+
+
+
+
+@media (max-width:1080px) {
+    .hire  .h-left{
+        width: 30%;
+        padding: 1rem 0 1rem 1.5rem ;
+            
+    }
+    
+.hire  .h-right{
+    width: 70%;
+}
+.hire  .h-right .h-row{
+    row-gap: 1.5rem;
+    column-gap: 0.5rem;
+
+    
+}
+    
+}
+@media (max-width:880px) {
+    
+.hire{
+    flex-direction: column;    
+    row-gap: 3rem;
+}
+    .hire  .h-left{
+        width: 100%;
+        padding: 1rem 1.5rem 1rem 2.5rem ;
+            
+    }
+    
+.hire  .h-right{
+    width: 100%;
+}
+.hire  .h-right .h-row{
+    row-gap: 2rem;
+    padding:0 2rem;
+    column-gap: 2rem;
+
+    
+}
+.hire  .h-right .h-row a{
+    width: 150px;
+    height:80px;
+    padding: 1rem;
+    
+}
+    
+}
+
+
+
+
+
+

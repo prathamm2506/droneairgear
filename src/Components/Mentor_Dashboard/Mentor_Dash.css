@@ -1,0 +1,293 @@
+#mentor_dashboard{
+    padding: 0;
+    margin: 0;
+}
+#mentor_dashboard .mentor_dash_land{
+    padding: 5rem 5rem 0 5rem;
+    display: flex;
+    flex-direction: column;
+   
+}
+#mentor_dashboard .mentor_dash_land .heading{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+#mentor_dashboard .mentor_dash_land .heading h1{
+    
+    color: #333;
+    font-weight: 600!important;
+    line-height: 100%!important;
+    letter-spacing: -0.03em;
+    margin: 24px 0;
+    /* margin-bottom: 24px; */
+    font-size: 64px!important;
+}
+#mentor_dashboard .mentor_dash_land .heading p{
+    padding: 5px 10px;
+    height: 25px;
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+    border: 1px solid #636363;
+}
+#mentor_dashboard .mentor_dash_land .sub_heading{
+   
+    align-items: center;
+    justify-content: center;
+}
+#mentor_dashboard .mentor_dash_land .sub_heading h1{
+    align-self: left;
+    color: #333;
+    font-weight: 600!important;
+    line-height: 100%!important;
+    letter-spacing: -0.03em;
+    margin: 24px 0;
+    /* margin-bottom: 24px; */
+    font-size: 40px!important;
+}
+#mentor_dashboard .mentor_dash_land .sub_heading a{
+    /* top:0; */
+    position: absolute;
+    top: 30%;
+    right:5%;
+    text-decoration: none;
+    align-self: right;
+    font-size: 17px;
+    color: #333;
+    padding: 10px 8px;
+    background: #b8b8b8;
+    border-radius: 5px;
+}
+#mentor_dashboard .mentor_dash_land .sub_heading a i{
+    font-size: 15px;
+}
+
+
+#mentor_dashboard .mentor_courses{
+    padding: 3rem 5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+   
+}
+#mentor_dashboard .mentor_courses .course{
+    padding: 2rem 2rem;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background: #e1d2ff;
+    border-radius: 5px;
+}
+#mentor_dashboard .mentor_courses .skin{
+    background: #fde1ac;
+}
+#mentor_dashboard .mentor_courses .blue{
+    background: #bae5f5;
+}
+#mentor_dashboard .mentor_courses .green{
+    background: #ccefbf;
+}
+
+#mentor_dashboard .mentor_courses .course .logo{
+    font-size: 24px;
+    margin-bottom: 1rem;
+}
+#mentor_dashboard .mentor_courses .course .heading{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+#mentor_dashboard .mentor_courses .course .info{
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+#mentor_dashboard .mentor_courses .course hr{
+    border: 1px solid #949494;
+}
+#mentor_dashboard .mentor_courses .course .pricing{
+    display: flex;
+    flex-direction: row;
+}
+#mentor_dashboard .mentor_courses .course .pricing .letter{
+    width: 50%;
+    text-align: left;
+    font-size: 15px;
+    color: #636363;
+}
+#mentor_dashboard .mentor_courses .course .pricing .price{
+    width: 50%;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+}
+#mentor_dashboard .mentor_course_up{
+    padding: 3rem 5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+#mentor_dashboard .mentor_course_up .time_table{
+    align-self: flex-start;
+    width: 50%;
+    display: felx;
+    flex-direction: column;
+    gap: 1rem;
+    padding-right: 1rem;
+    border-right: 0.3px solid #dfdedea9;
+}
+
+#mentor_dashboard .mentor_course_up .time_table .heading{
+    color: #333;
+    font-weight: 600!important;
+    line-height: 100%!important;
+    letter-spacing: -0.03em;
+    margin: 24px 0;
+    margin-bottom: 30px;
+    font-size: 40px!important;
+}
+#mentor_dashboard .mentor_course_up .time_table .shedule{
+    color: #333;
+    font-weight: 600!important;
+    line-height: 100%!important;
+    letter-spacing: -0.03em;
+    margin: 24px 0;
+    margin-bottom: 24px;
+    font-size: 20px!important;
+}
+
+#mentor_dashboard .mentor_course_up .time_table .lecture{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+#mentor_dashboard .mentor_course_up .time_table .lecture .time{
+    
+    font-size: 0.8rem;
+    color: #636363;
+    font-weight: 600;
+
+}
+#mentor_dashboard .mentor_course_up .time_table .lecture .logo{
+    padding: 10px;
+    background: #e1d2ff;
+    border-radius: 5px;
+}
+#mentor_dashboard .mentor_course_up .time_table .lecture .info{
+    text-align: left;
+}
+
+#mentor_dashboard .mentor_course_up .time_table .lecture .info .subject{
+    font-size: 1rem;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+#mentor_dashboard .mentor_course_up .time_table .lecture .info .specific_topic{
+    font-size: 0.8rem;
+    color: #636363;
+    font-weight: 500;
+}
+
+
+
+
+
+#mentor_dashboard .mentor_course_up .time_table .lecture .info-right{
+    text-align: right;
+}
+#mentor_dashboard .mentor_course_up .time_table .lecture .info-right .subject{
+    font-size: 1rem;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+#mentor_dashboard .mentor_course_up .time_table .lecture .info-right .specific_topic{
+    font-size: 0.8rem;
+    color: #636363;
+    font-weight: 500;
+}
+
+#mentor_dashboard .mentor_course_up .progress{
+    width: 45%;
+}
+#mentor_dashboard .mentor_course_up .progress .heading{
+    color: #333;
+    font-weight: 600!important;
+    line-height: 100%!important;
+    letter-spacing: -0.03em;
+    margin: 24px 0;
+    margin-bottom: 30px;
+    font-size: 40px!important;
+}
+#mentor_dashboard .mentor_course_up .progress .progress_of_subject{
+    margin: 2rem 1rem;
+    padding: 2rem;
+    border: 1px solid #94949475;
+    border-radius: 10px;
+}
+#mentor_dashboard .mentor_course_up .progress .progress_of_subject .progress_bar{
+    /* width: 80%; */
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+#mentor_dashboard .mentor_course_up .progress .progress_of_subject .progress_bar .bar{
+    width: 100%;
+    background: #949494;
+    /* color: #e1d2ff; */
+    padding: 0px;
+    border-radius: 5px;
+}
+#mentor_dashboard .mentor_course_up .progress .progress_of_subject .progress_bar .bar .color{
+    width: 80%;
+    background: #e1d2ff;
+    padding: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#mentor_dashboard .mentor_course_up .progress .progress_of_subject .progress_bar .info{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+
+}
+#mentor_dashboard .mentor_course_up .progress .progress_of_subject .progress_bar .info h1{
+    width: 50%;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+#mentor_dashboard .mentor_course_up .progress .progress_of_subject .progress_bar .info p{
+    width: 50%;
+    font-size: 13px;
+    margin: 0;
+    text-align: right;
+}
+#mentor_dashboard .mentor_course_up .progress .progress_of_subject .progress_bar .bar .skin{
+    background: #fde1ac;
+    width: 90%;
+}
+#mentor_dashboard .mentor_course_up .progress .progress_of_subject .progress_bar .bar .blue{
+    background: #bae5f5;
+    width: 50%;
+}
+#mentor_dashboard .mentor_course_up .progress .progress_of_subject .progress_bar .bar .green{
+    background: #ccefbf;
+    width: 60%;
+}
