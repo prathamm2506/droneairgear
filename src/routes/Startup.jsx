@@ -8,7 +8,7 @@ import SCon from '../Components/SCon/SCon'
 import Raising from '../Components/Raising/Raising'
 import ProjectSale from '../Components/ProjectsSale/ProjectSale'
 import VcHeader from '../Components/VcHeader/VcHeader'
-import Blackhole from '../Components/blackhole/blackhole'
+// import Blackhole from '../Components/blackhole/blackhole'
 
 const Startup = () => {
   return (
