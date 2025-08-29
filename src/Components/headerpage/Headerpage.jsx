@@ -7,8 +7,8 @@ const Headerpage = () => {
     window.scrollTo({ 
       top: 1020, 
       behavior: 'smooth'
-    }); 
-  };
+});
+};
   return (
     <div className="hddp">
       <div className="hddp-cont">
