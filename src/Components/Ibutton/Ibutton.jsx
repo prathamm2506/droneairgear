@@ -1,5 +1,5 @@
 import React from 'react'
-import './ibutton.css'
+import './Ibutton.css'
 import { Link } from 'react-router-dom'
 
 const Ibutton = () => {
