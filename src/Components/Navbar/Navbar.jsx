@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./Navbar.css";
 
 import { FaShoppingCart } from "react-icons/fa";
-import LogoAir  from "../../assets/Droneair.png";
+import LogoAir  from "../../assets/droneair.png";
 
 import { Link, useLocation } from "react-router-dom";
 
