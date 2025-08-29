@@ -12,7 +12,7 @@ import ProjectSale from '../Components/ProjectsSale/ProjectSale'
 import Headerpage from '../Components/headerpage/Headerpage'
 import Feturecourse from '../Components/FeturedCourse/Feturecourse'
 // import Programsoncourse from '../Components/FeturedCourse/Programsoncourse'
-import Programsonhome from '../Components/FeturedCourse/programsonhome'
+import Programsonhome from '../Components/FeturedCourse/Programsonhome'
 
 const Students = () => {
 
