@@ -5,7 +5,7 @@ import Footer from '../Components/Footer/Footer'
 import IBenefits from '../Components/IBenefits/IBenefits'
 import Ibutton from '../Components/Ibutton/Ibutton'
 import IPeople from '../Components/IPeople/IPeople'
-import Investor_Header from '../Components/Investor_Header/Investor_Header'
+import Investor_Header from '../Components/Investor_Header/Investor_header'
 
 
 
